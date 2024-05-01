@@ -382,3 +382,149 @@
 //     num[i + 2] = newNum
 // };
 // console.log(num);
+
+// // task 32
+
+// var text = "theres ones was a ship that put to sea and the name of the sea was the billy of tea the wind blew high and gather and the kingdom was that it blows"
+// var text = prompt("enter any text")
+// var text = text.split(" ");
+// var str = "";
+// var arr = [];
+// var store  = [];
+// for(var i = 0; i < text.length; i++){
+//       arr[i] = text[i].length
+// }
+// str = arr[0]
+// for(var j = 0; j < arr.length; j++){
+//     if(arr[j] > str){
+//         str = arr[j]
+//     }
+//     if(text[j].length == str){
+//         store[j] = text[j]
+// }
+// }
+// store = store.join(" , ")
+// document.write(store)
+
+// var num = [1,2];
+// var newNum = [];
+// for(var i = 0;i < 11;i++){
+//     newNum = num[i] + num[i + 1];
+//     num[i + 2] = newNum 
+// };
+// console.log(num);
+
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var now = new Date().getDay();
+// var nameOfToday = dayNames[now];
+// console.log(nameOfToday)
+
+// var time = new Date()
+// console.log(time)
+// var mon = ["jan","feb","march","april"]
+// var time = new Date().getMonth();
+// var final = mon[time];
+// console.log(final)
+
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var now = new Date().getDay();
+// var nameOfToday = dayNames[now];
+// // alert(nameOfToday)
+
+// var now = new Date().getDay()
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var final = dayNames[now];
+// if(final == "Sun" || final == "Sat"){
+//    alert(it's a fun day ${final})
+
+// }
+// else{
+//    alert(it's a working day ${final})
+// }
+
+// var time = new Date().getDate();
+// if(time < 16){
+//     alert("First fifteen days of the month")
+// }
+// else{
+//     alert("Last days of the month.")
+// }
+
+// var time = new Date()
+// var min = time.getTime()
+// var daty = min/ (1000 * 60 * 60 * 24)
+// console.log(time)
+// console.log(min)
+// console.log(daty)
+
+// var time = new Date()
+// var what = time.getHours();
+// if(what < 12 ){
+//     alert("its Am")
+// }
+// else{
+//     alert("its Pm")
+// }
+
+// var laterDate = new Date("september 19, 2024")
+// console.log(laterDate)
+
+//  var msDiff = new Date("June 30, 2035").getTime() - new Date().getTime();
+//  var daysTillDoom = Math.floor(msDiff / (1000 * 60 * 60 * 24));
+//  console.log(daysTillDoom)
+
+// const startDate = new Date("march 10, 2024").getTime();
+// const currentDate = new Date().getTime();
+// const millisecondsPerDay = 1000 * 60 * 60 * 24;
+// const daysPast = Math.floor((currentDate - startDate) / millisecondsPerDay);
+// alert(Number of days past since the first day of Ramadan: ${daysPast});
+
+
+// new date(jo din date chahye he).getTime()
+// new date().getTime()
+// millisecondsPerDay = 1000 * 60 * 60 * 24;
+// Math.floor((currentDate - startDate) / millisecondsPerDay)
+
+
+// const startDate = new Date("january 1,2015").getTime();
+// const currentDate = new Date("january 1,2024").getTime();
+// const millisecondsPerDay = 1000;
+// const daysPast = Math.floor((currentDate - startDate) / millisecondsPerDay);
+// alert(` ${daysPast}`);
+
+// const currentDate = new Date();
+
+// const hours = currentDate.getHours();
+
+// currentDate.setHours(hours - 1);
+
+// console.log(currentDate);
+// const currentDate = new Date();
+
+// const years = currentDate.getFullYear()
+
+// currentDate.setFullYear(years - 100);
+
+// console.log(currentDate);
+
+// var prom = +prompt("enter your age");
+
+// const currentDate = new Date();
+
+// const years = currentDate.getFullYear()
+
+// var birth = (years - prom);
+
+// console.log(birth);
+
+// var prom = prompt("enter your name")
+// var prom1 = prompt("enter your month")
+// var prom2 = prompt("enter your number of units")
+// var prom3 = 16
+// var net = prom2 * prom3
+// var late = 400
+// var gross =  net + late
+// document.write(`name : ${prom} <br> month: ${prom1} <br> number of units: ${prom2} <br> charges per unit: ${prom3} <br> net fee: ${net} <br> due date charges: ${late} <br> net fee after due date: ${gross} `)
+
+// var str = "hello world"
+// console.log(str.slice(str.length - 5));
