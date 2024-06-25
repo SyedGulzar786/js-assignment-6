@@ -528,3 +528,26 @@
 
 // var str = "hello world"
 // console.log(str.slice(str.length - 5));
+
+// task 32
+
+// let text = "this is my string and i am learning javascripte"
+// text = text.split(" ") 
+// let largest = text[0]
+// for (let i = 0; i < text.length ; i++) {
+//     if(text[i].length > largest.length){
+//         largest = text[i]
+//     }
+// }
+// console.log(largest)
+
+// task 33
+
+// var text = "ABCDEFGHIJKMNOPRSTUVWXYZabcdeghijklmnopqrstuvwxyz1234567890!@#$%^&*()_-"
+// // var userInp = prompt("enter the length of your password to be generated")
+// var store = "";
+// for (let i = 0; i < 11; i++) {
+//     var random = Math.floor(Math.random()*text.length)
+//      store += text[random];
+// }
+// document.write(store)
